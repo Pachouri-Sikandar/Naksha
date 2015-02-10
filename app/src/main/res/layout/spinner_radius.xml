@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:background="#FFF"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        >
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:id="@+id/spnRadius"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            >
+        </Spinner>
+
+        <com.gc.materialdesign.views.Slider
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#1E88E5"
+            android:layout_marginTop="20dp"
+            materialdesign:max="1000"
+            materialdesign:min="0"
+            materialdesign:showNumberIndicator="true"
+
+            >
+        </com.gc.materialdesign.views.Slider>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/myPrimaryColor"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:text="Select Radius"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSelectRadius"
+            android:text="Select"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            />
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+
+
+
+

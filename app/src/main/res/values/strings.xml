@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Naksha</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="api_key">AIzaSyAa4Xv1C7fINfMoOxF7p6-TmzA-BvJK1q0</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="loading">Looking for </string>
+    <string name="dots">\u002e\u002e\u002e</string>
+    <string name="select_radius">Select radius (in km)</string>
+    <string name="text">Select</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="dummy_text">Naksha</string>
+    <string name="share_via">Share via</string>
+    <string name="connection_timeout">Internet connection timeouts</string>
+</resources>

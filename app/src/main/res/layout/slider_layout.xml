@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    >
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="@string/select_radius"
+      android:background="@color/myPrimaryColor"
+      android:padding="10dp"
+      android:textSize="18sp"
+      android:textStyle="bold"
+      />
+    <com.gc.materialdesign.views.Slider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sliderMain"
+        android:layout_marginTop="20dp"
+        >
+        </com.gc.materialdesign.views.Slider>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0 km"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="5dp"
+        android:id="@+id/showSelectedRadius"
+        />
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/text"
+        android:padding="10dp"
+        android:textColor="@color/myPrimaryColor"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnSelect"
+        >
+
+        </com.gc.materialdesign.views.ButtonRectangle>
+</LinearLayout>
